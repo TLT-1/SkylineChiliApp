@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.account-mergeDebugResources-28:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.account-mergeDebugResources-31:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Noah\\.gradle\\caches\\transforms-3\\c9231f61ffc2ed8722bea521977306ff\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,14 +38,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp\\app\\account\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Noah\\Documents\\GitHub\\SkylineChiliApp\\app\\account\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "14",
                         "endColumns": "12",
-                        "endOffsets": "804"
+                        "endOffsets": "818"
                     },
                     "to": {
                         "startLines": "33",

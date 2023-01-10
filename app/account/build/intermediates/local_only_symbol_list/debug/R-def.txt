@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+array reply_entries
+array reply_values
 color black
 color purple_200
 color purple_500
@@ -9,12 +11,18 @@ color teal_700
 color white
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+drawable googlelogo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo
 id container
+id google_logo
+id google_signin
+id imageView
 id loading
 id login
 id password
+id textView
 id username
 layout activity_login
 mipmap ic_launcher
@@ -22,10 +30,20 @@ mipmap ic_launcher_round
 string action_sign_in
 string action_sign_in_short
 string app_name
+string attachment_summary_off
+string attachment_summary_on
+string attachment_title
+string forgot_password
 string invalid_password
 string invalid_username
 string login_failed
+string messages_header
 string prompt_email
 string prompt_password
+string reply_title
+string signature_title
+string sync_header
+string sync_title
 string welcome
 style Theme.SkylineChiliApp
+xml root_preferences

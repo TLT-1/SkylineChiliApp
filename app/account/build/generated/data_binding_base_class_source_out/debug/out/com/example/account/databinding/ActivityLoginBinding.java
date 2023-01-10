@@ -6,7 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,6 +26,57 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout container;
 
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final ImageView googleLogo;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final TextView googleSignin;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final ImageView imageView;
+
   @NonNull
   public final ProgressBar loading;
 
@@ -33,17 +86,40 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final EditText password;
 
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final TextView textView;
+
   @NonNull
   public final EditText username;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout container, @NonNull ProgressBar loading, @NonNull Button login,
-      @NonNull EditText password, @NonNull EditText username) {
+      @NonNull ConstraintLayout container, @Nullable ImageView googleLogo,
+      @Nullable TextView googleSignin, @Nullable ImageView imageView, @NonNull ProgressBar loading,
+      @NonNull Button login, @NonNull EditText password, @Nullable TextView textView,
+      @NonNull EditText username) {
     this.rootView = rootView;
     this.container = container;
+    this.googleLogo = googleLogo;
+    this.googleSignin = googleSignin;
+    this.imageView = imageView;
     this.loading = loading;
     this.login = login;
     this.password = password;
+    this.textView = textView;
     this.username = username;
   }
 
@@ -76,6 +152,15 @@ public final class ActivityLoginBinding implements ViewBinding {
     missingId: {
       ConstraintLayout container = (ConstraintLayout) rootView;
 
+      id = R.id.google_logo;
+      ImageView googleLogo = ViewBindings.findChildViewById(rootView, id);
+
+      id = R.id.google_signin;
+      TextView googleSignin = ViewBindings.findChildViewById(rootView, id);
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+
       id = R.id.loading;
       ProgressBar loading = ViewBindings.findChildViewById(rootView, id);
       if (loading == null) {
@@ -94,14 +179,17 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+
       id = R.id.username;
       EditText username = ViewBindings.findChildViewById(rootView, id);
       if (username == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, container, loading, login,
-          password, username);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, container, googleLogo,
+          googleSignin, imageView, loading, login, password, textView, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

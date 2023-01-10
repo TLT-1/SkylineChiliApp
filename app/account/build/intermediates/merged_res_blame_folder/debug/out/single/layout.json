@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Noah\\.gradle\\daemon\\7.4\\com.example.account-mergeDebugResources-29:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Noah\\.gradle\\daemon\\7.4\\com.example.account-main-32:\\layout\\activity_login.xml"
+        "merged": "com.example.account-mergeDebugResources-32:/layout/activity_login.xml",
+        "source": "com.example.account-main-35:/layout/activity_login.xml"
     },
     {
-        "merged": "com.example.account-mergeDebugResources-29:/layout/activity_login.xml",
-        "source": "com.example.account-main-32:/layout/activity_login.xml"
+        "merged": "C:\\Users\\Noah\\.gradle\\daemon\\7.4\\com.example.account-mergeDebugResources-32:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Noah\\.gradle\\daemon\\7.4\\com.example.account-main-35:\\layout\\activity_login.xml"
     }
 ]
