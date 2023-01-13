@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.util.Log;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -17,18 +18,39 @@ import com.example.skylinechiliapp.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button rewardssignin;//rewards
+    private TextView rewardstext;//rewards
 
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        setContentView(R.layout.rewardslogin);//start of rewards code
+        rewardssignin = findViewById(R.id.buttonrewardssignin);
+        rewardstext = findViewById(R.id.rewardstext);
+
+        rewardssignin.setOnClickListener(new View.OnClickListener() {//rewards method cont
+            @Override
+            public void onClick(View view) {
+
+                Log.d("RewardsInMainActivity", "onClick: ");
+
+
+
+            }
+        });
 
         setSupportActionBar(binding.toolbar);
 
