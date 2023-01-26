@@ -1,19 +1,19 @@
-#Thu Jan 12 16:39:38 EST 2023
+#Tue Jan 24 18:40:08 GMT-05:00 2023
 path.4=6/classes.dex
 path.3=5/classes.dex
 path.2=15/classes.dex
 path.1=0/classes.dex
 path.5=7/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\ereci\\Desktop\\SChilGit\\SkylineChiliApp\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.3=C\:\\Users\\ereci\\Desktop\\SChilGit\\SkylineChiliApp\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.2=C\:\\Users\\ereci\\Desktop\\SChilGit\\SkylineChiliApp\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.1=C\:\\Users\\ereci\\Desktop\\SChilGit\\SkylineChiliApp\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\ereci\\Desktop\\SChilGit\\SkylineChiliApp\\app\\account\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=C\:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp2\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.3=C\:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp2\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.2=C\:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp2\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.1=C\:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp2\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp2\\app\\account\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
-base.5=C\:\\Users\\ereci\\Desktop\\SChilGit\\SkylineChiliApp\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.5=C\:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp2\\app\\account\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex

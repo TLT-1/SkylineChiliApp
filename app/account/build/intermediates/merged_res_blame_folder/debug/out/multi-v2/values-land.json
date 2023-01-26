@@ -4,17 +4,24 @@
             "outputFile": "com.example.account-mergeDebugResources-31:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ereci\\.gradle\\caches\\transforms-3\\c9231f61ffc2ed8722bea521977306ff\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Noah\\AndroidStudioProjects\\SkylineChiliApp2\\app\\account\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "57",
+                        "endOffsets": "70"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "57",
+                        "endOffsets": "317"
                     }
                 },
                 {
-                    "source": "C:\\Users\\ereci\\.gradle\\caches\\transforms-3\\598c05c81fe9254b4832878dd4a0db6b\\transformed\\material-1.5.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Noah\\.gradle\\caches\\transforms-3\\598c05c81fe9254b4832878dd4a0db6b\\transformed\\material-1.5.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -33,20 +40,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ereci\\Desktop\\SChilGit\\SkylineChiliApp\\app\\account\\src\\main\\res\\values-land\\dimens.xml",
+                    "source": "C:\\Users\\Noah\\.gradle\\caches\\transforms-3\\c9231f61ffc2ed8722bea521977306ff\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "57",
-                        "endOffsets": "70"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "264",
-                        "endColumns": "57",
-                        "endOffsets": "317"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

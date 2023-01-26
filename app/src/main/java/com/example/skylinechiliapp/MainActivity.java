@@ -37,20 +37,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setContentView(R.layout.rewardslogin);//start of rewards code
-        rewardssignin = findViewById(R.id.buttonrewardssignin);
-        rewardstext = findViewById(R.id.rewardstext);
-
-        rewardssignin.setOnClickListener(new View.OnClickListener() {//rewards method cont
-            @Override
-            public void onClick(View view) {
-
-                Log.d("RewardsInMainActivity", "onClick: ");
-
-
-
-            }
-        });
 
         setSupportActionBar(binding.toolbar);
 
